@@ -31,7 +31,6 @@
             label1 = new System.Windows.Forms.Label();
             btnExit = new System.Windows.Forms.Button();
             dataGridView1 = new System.Windows.Forms.DataGridView();
-            button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -71,25 +70,8 @@
             dataGridView1.Location = new System.Drawing.Point(25, 73);
             dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new System.Drawing.Size(647, 340);
+            dataGridView1.Size = new System.Drawing.Size(647, 426);
             dataGridView1.TabIndex = 23;
-            // 
-            // button1
-            // 
-            button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            button1.BackColor = System.Drawing.Color.FromArgb(235, 42, 83);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            button1.ForeColor = System.Drawing.Color.LightGray;
-            button1.Location = new System.Drawing.Point(522, 465);
-            button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(150, 30);
-            button1.TabIndex = 50;
-            button1.Text = "Actualizar Producto";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // ConsultarVentas
             // 
@@ -97,7 +79,6 @@
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(32, 30, 45);
             ClientSize = new System.Drawing.Size(700, 577);
-            Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(btnExit);
             Controls.Add(label1);
@@ -116,6 +97,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
     }
 }

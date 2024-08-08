@@ -51,6 +51,7 @@
             panelLogo = new System.Windows.Forms.Panel();
             panelChildForm = new System.Windows.Forms.Panel();
             pictureBox9 = new System.Windows.Forms.PictureBox();
+            button7 = new System.Windows.Forms.Button();
             panelSideMenu.SuspendLayout();
             panelEmpleadosSubMenu.SuspendLayout();
             panelFacturaciónSubMenu.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             panelSideMenu.AutoScroll = true;
             panelSideMenu.BackColor = System.Drawing.Color.FromArgb(11, 7, 17);
+            panelSideMenu.Controls.Add(button7);
             panelSideMenu.Controls.Add(panelEmpleadosSubMenu);
             panelSideMenu.Controls.Add(button1);
             panelSideMenu.Controls.Add(panelFacturaciónSubMenu);
@@ -222,7 +224,7 @@
             btnExit.ForeColor = System.Drawing.Color.Silver;
             btnExit.Image = (System.Drawing.Image)resources.GetObject("btnExit.Image");
             btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            btnExit.Location = new System.Drawing.Point(0, 660);
+            btnExit.Location = new System.Drawing.Point(0, 705);
             btnExit.Name = "btnExit";
             btnExit.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             btnExit.Size = new System.Drawing.Size(233, 45);
@@ -423,6 +425,25 @@
             pictureBox9.TabStop = false;
             pictureBox9.Click += pictureBox9_Click;
             // 
+            // button7
+            // 
+            button7.Dock = System.Windows.Forms.DockStyle.Top;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(23, 21, 32);
+            button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(24, 22, 34);
+            button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            button7.ForeColor = System.Drawing.Color.Silver;
+            button7.Image = (System.Drawing.Image)resources.GetObject("button7.Image");
+            button7.Location = new System.Drawing.Point(0, 660);
+            button7.Name = "button7";
+            button7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            button7.Size = new System.Drawing.Size(233, 45);
+            button7.TabIndex = 26;
+            button7.Text = "    Ventas";
+            button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -474,6 +495,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button7;
     }
 }
 

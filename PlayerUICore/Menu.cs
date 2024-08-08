@@ -243,5 +243,10 @@ namespace PlayerUI
         {
             openChildForm(new ConsultarEmpleados());
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ConsultarVentas());
+        }
     }
 }
